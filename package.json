@@ -1,0 +1,36 @@
+{
+  "name": "poly-rating",
+  "version": "0.1.0",
+  "description": "A ReactJS component that Creates Polygons of Assigned Ratings and Summary Polygons.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaymore/poly-rating.git"
+  },
+  "keywords": [
+    "react-component",
+    "polygon-rating",
+    "summary-polygons",
+    "html5-canvas"
+  ],
+  "author": {
+    "name": "Ajay More"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  }
+}
