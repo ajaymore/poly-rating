@@ -1,0 +1,5 @@
+{
+    "private": true,
+    "name": "SummaryPolygon",
+    "main": "./SummaryPolygon.js"
+}

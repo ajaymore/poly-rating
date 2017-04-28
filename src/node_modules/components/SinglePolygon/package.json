@@ -1,5 +1,5 @@
 {
     "private": true,
     "name": "SinglePolygon",
-    "main": "./YourComponent.js"
+    "main": "./SinglePolygon.js"
 }
