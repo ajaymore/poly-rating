@@ -33,13 +33,22 @@ class App extends Component {
       width: 500
     }
     return (
-      <div>
+      <div style={{ maxWidth: 500, margin: '0 auto' }}>
+        <h2 style={{ textAlign: 'center' }}>Polygon Rating App</h2>
         <pre>
           <code>
+            {"const ratingArray = [{ name: 'AB', rating: 2 }, { name: 'CD', rating: 2 },\n" +
+              "\t{ name: 'EF', rating: 3 }, { name: 'GH', rating: 4 },\n" +
+              "\t{ name: 'HI', rating: 5 }];\n\n\n" +
+              "const polygonStyles = {\n" +
+              "\tpolygonSides: 5,\n" +
+              "\twidth: 500\n" +
+              "}\n\n"}
           </code>
         </pre>
         <pre>
           <code>
+            {'<SinglePolygon\n\tratingArray={ratingArray}\n\tpolygonStyles={polygonStyles}\n\tcanvasId="single-polygon"\n/>;'}
           </code>
         </pre>
         <SinglePolygon
@@ -49,6 +58,8 @@ class App extends Component {
         />
         <pre>
           <code>
+            {"<SummaryPolygon\n\tratingDimensions={['AB', 'CD', 'EF', 'GH', 'HI']}\n\t" +
+              'polygonStyles={polygonStyles}\n\tcanvasId="summary-polygon"\n/>;'}
           </code>
         </pre>
         <SummaryPolygon

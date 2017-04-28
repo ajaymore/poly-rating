@@ -2,7 +2,7 @@
 
 **A polygon based user rating component built using React**
 
-Demo: [https://ajaymore.github.io/poly-rating]https://ajaymore.github.io/poly-rating
+Demo: [https://ajaymore.github.io/poly-rating](https://ajaymore.github.io/poly-rating)
 
 ## Installation
 
